@@ -4,7 +4,7 @@ import './WeatherApp.css'
     const [city, setCity]=useState('')
     const [weatherData, setweatherData] = useState(null)
     const urlBase='https://api.openweathermap.org/data/2.5/weather'
-    const apiKey='b39a76d92d827129b547110cbcf56d17'
+    const apiKey='APIKEY'
     const difKelvin= 273.15
     
     const handleSubmit=(event) =>{
